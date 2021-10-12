@@ -5,7 +5,17 @@ You control what step goes next
 
 # Run
 To run simply type
-> python automation.py [-option]
+> python3 automation.py [-option]
+
+# Options
+```
+	-h		Help Menu
+	-mc		Monitor a network
+	-m		See all the networks around you
+	-si		Start your interface on monitor mode
+	-i		Install all that is required
+	-d		Try and capture a handshake
+```
 
 # Errors
 The program requires a NODELETE.txt file which contins your mon network interface
